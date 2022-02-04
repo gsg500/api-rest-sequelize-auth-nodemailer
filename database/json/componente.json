@@ -1,0 +1,11 @@
+{
+	"gtin": "0000000000000",
+	"nome": "*****************",
+  "dimessoes_altura": 0,
+ 	"dimessoes_largura": 0,
+	"dimessoes_profundidade": 0,
+	"peso_bruto": 0,
+	"peso_liquido": 0,
+	"grupo_id": 0,
+	"seguimento_id": 0
+}
