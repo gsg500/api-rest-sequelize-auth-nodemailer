@@ -1,6 +1,7 @@
 require('dotenv').config();
 const jwt = require('express-jwt');
 
+// eslint-disable-next-line no-unused-vars
 function extractTokenFromHeaders(req, res) {
 	if (!req.headers.authorization) {
 		throw new Error('Missing Authorization Header.');

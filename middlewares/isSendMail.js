@@ -14,5 +14,6 @@ module.exports = async function emailSend(user, titulo, conteudo) {
 		to: user}); 
 	return mailSend;
 	} catch (err) { console.error(err);
+		// eslint-disable-next-line no-undef
 		return res.status(500).json({ msg: JSON.stringify(err) }); }  
 };
